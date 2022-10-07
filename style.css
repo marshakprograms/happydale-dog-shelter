@@ -13,18 +13,28 @@ body {
   height: 100vh;
 }
 
+/* my code */
 header {
-  /* your code */
+  display: flex;
+  justify-content: space-between;
 }
 
+/* my code */
 main {
-  /* your code */
+  display: flex;
+   
 }
+
+/* my code */
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
 }
+
 main a {
   width: 5rem;
   border: .1rem solid peru;
@@ -32,8 +42,11 @@ main a {
   margin: .5rem 0rem;
 }
 
+/* my code */
 .dog-list-container {
-  /* your code */
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .fluid-text {
